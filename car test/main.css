@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+::-webkit-scrollbar{
+    width: 2px;
+    background-color:#555;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+.container{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+    background-image: url(pics/dodge-challenger-cars-eafc.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+}
+label{
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    padding: 5px 20px;
+    background-color: rgb(27, 125, 238);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+label:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+label:active{
+    background-color: blueviolet;
+}
+.container header nav img{
+    width:70px ;
+}
+.container header{
+    position: relative;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container header div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -10%) skew(45deg);
+    font-size: larger;
+    background-color: crimson;
+    padding: 25px;
+    position: relative;
+    width: 170px;
+    -webkit-transform: translate(-50%, -10%) skew(45deg);
+    -moz-transform: translate(-50%, -10%) skew(45deg);
+    -ms-transform: translate(-50%, -10%) skew(45deg);
+    -o-transform: translate(-50%, -10%) skew(45deg);
+}
+.container header div h1{ position: absolute; transform:skew(-45deg) ; -webkit-transform:skew(-45deg) ; -moz-transform:skew(-45deg) ; -ms-transform:skew(-45deg) ; -o-transform:skew(-45deg) ;
+    top: 5px;
+    left: 35px;
+}
+header p{
+    /* position: absolute;
+    right: 100px;
+    top: 70px; */
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+header p span{
+    font-size: 30px;
+    color: crimson;
+}
+.timer{
+position: absolute;
+top: 5px;
+right: 10px;
+}
+/* end header */
+
+form{
+    color: #eee;
+    padding: 0px 20px;
+}
+form input[type="radio"]{
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+@media (max-width:500px) {
+    h2{
+        font-size: 15px;
+    }
+}
+label{
+    color: rgba(238, 238, 238, 0.521);
+}
+hr{
+    border: 1px solid rgba(238, 238, 238, 0.493);
+    width: 100%;
+    margin: 20px auto;
+}
+input[type="submit"]{
+    width: 30%;
+    margin: 50px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(119, 13, 34);
+    cursor: pointer;
+}
+.sub{
+    text-align: center;
+}
+.sucess{
+    color: #05ff05;
+    
+}
+.basic{
+    color: #eee;
+}
